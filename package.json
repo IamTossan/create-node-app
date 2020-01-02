@@ -1,7 +1,8 @@
 {
   "name": "create-node-ts-app",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.4",
+  "description": "A cli to quickly set up a node typescript project",
+  "homepage": "https://github.com/IamTossan/create-node-app#readme",
   "main": "bin/index.js",
   "scripts": {
     "start": "bin/index.js"
@@ -10,7 +11,11 @@
     "create-node-ts-app": "./bin/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Albert Oudompheng <tossanmusic@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IamTossan/create-node-app.git"
+  },
   "license": "ISC",
   "dependencies": {
     "command-exists": "^1.2.8",

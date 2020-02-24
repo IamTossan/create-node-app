@@ -3,10 +3,13 @@ const { testEnum } = require('../shared/enums');
 const basePackages = ['typescript', 'ts-node-dev'];
 
 const lintPackages = [
-  'tslint',
+  'eslint',
   'prettier',
-  'tslint-config-airbnb',
-  'tslint-config-prettier',
+  '@typescript-eslint/eslint-plugin',
+  '@typescript-eslint/parser',
+  'eslint-config-airbnb-typescript',
+  'eslint-config-prettier',
+  'eslint-plugin-import',
 ];
 
 const testPackages = {
@@ -20,12 +23,8 @@ const testPackages = {
     '@types/chai',
     'source-map-support',
   ],
-  [testEnum.JEST]: [
-    'jest',
-    '@types/jest',
-    'ts-jest',
-  ],
-}
+  [testEnum.JEST]: ['jest', '@types/jest', 'ts-jest', 'eslint-plugin-jest'],
+};
 
 module.exports = {
   basePackages,

@@ -1,4 +1,4 @@
-import { add } from '.';
+import add from '.';
 
 describe('src/index', () => {
   it('should add', () => {

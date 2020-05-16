@@ -1,6 +1,5 @@
 const testEnum = {
   NONE: 'NONE',
-  MOCHA: 'MOCHA',
   JEST: 'JEST',
 };
 

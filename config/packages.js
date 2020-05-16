@@ -14,15 +14,6 @@ const lintPackages = [
 
 const testPackages = {
   [testEnum.NONE]: [],
-  [testEnum.MOCHA]: [
-    'mocha',
-    'chai',
-    'ts-node',
-    'nyc',
-    '@types/mocha',
-    '@types/chai',
-    'source-map-support',
-  ],
   [testEnum.JEST]: ['jest', '@types/jest', 'ts-jest', 'eslint-plugin-jest'],
 };
 

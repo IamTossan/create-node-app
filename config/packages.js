@@ -8,8 +8,8 @@ const basePackages = [
 const lintPackages = [
   'eslint@7.5.0',
   'prettier@2.0.5',
-  '@typescript-eslint/eslint-plugin@2.34.0',
-  '@typescript-eslint/parser@2.34.0',
+  '@typescript-eslint/eslint-plugin@3.6.1',
+  '@typescript-eslint/parser@3.6.1',
   'eslint-config-airbnb-typescript@9.0.0',
   'eslint-config-prettier@6.11.0',
   'eslint-plugin-import@2.22.0',

@@ -1,27 +1,28 @@
 const { testEnum } = require('../shared/enums');
 
 const basePackages = [
-  'typescript@3.9.7',
-  'ts-node-dev@1.0.0-pre.52'
+  'typescript@4.0.3',
+  'ts-node-dev@1.0.0',
+  '@types/node@14.14.3',
 ];
 
 const lintPackages = [
-  'eslint@7.5.0',
-  'prettier@2.0.5',
-  '@typescript-eslint/eslint-plugin@3.6.1',
-  '@typescript-eslint/parser@3.6.1',
-  'eslint-config-airbnb-typescript@9.0.0',
-  'eslint-config-prettier@6.11.0',
-  'eslint-plugin-import@2.22.0',
+  'eslint@7.12.0',
+  'prettier@2.1.2',
+  '@typescript-eslint/eslint-plugin@4.5.0',
+  '@typescript-eslint/parser@4.5.0',
+  'eslint-config-airbnb-typescript@12.0.0',
+  'eslint-config-prettier@6.14.0',
+  'eslint-plugin-import@2.22.1',
 ];
 
 const testPackages = {
   [testEnum.NONE]: [],
   [testEnum.JEST]: [
-    'jest@26.1.0',
-    '@types/jest@26.0.5',
-    'ts-jest@26.1.3',
-    'eslint-plugin-jest@23.18.0'
+    'jest@26.6.1',
+    '@types/jest@26.0.15',
+    'ts-jest@26.4.2',
+    'eslint-plugin-jest@24.1.0',
   ],
 };
 

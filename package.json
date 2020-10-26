@@ -6,7 +6,7 @@
   "main": "bin/index.js",
   "scripts": {
     "start": "bin/index.js",
-    "test": "rm -rf test/; bin/index.js --name test --no-git"
+    "test": "rm -rf tmp/; bin/index.js --name tmp --no-git"
   },
   "bin": {
     "create-node-ts-app": "./bin/index.js"

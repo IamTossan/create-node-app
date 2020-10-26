@@ -1,5 +1,3 @@
-const { testEnum } = require('../shared/enums');
-
 const basePackages = [
   'typescript@4.0.3',
   'ts-node-dev@1.0.0',
@@ -16,15 +14,12 @@ const lintPackages = [
   'eslint-plugin-import@2.22.1',
 ];
 
-const testPackages = {
-  [testEnum.NONE]: [],
-  [testEnum.JEST]: [
-    'jest@26.6.1',
-    '@types/jest@26.0.15',
-    'ts-jest@26.4.2',
-    'eslint-plugin-jest@24.1.0',
-  ],
-};
+const testPackages = [
+  'jest@26.6.1',
+  '@types/jest@26.0.15',
+  'ts-jest@26.4.2',
+  'eslint-plugin-jest@24.1.0',
+];
 
 module.exports = {
   basePackages,

@@ -5,7 +5,8 @@
   "homepage": "https://github.com/IamTossan/create-node-app#readme",
   "main": "bin/index.js",
   "scripts": {
-    "start": "bin/index.js"
+    "start": "bin/index.js",
+    "test": "rm -rf test/; bin/index.js --name test --no-git"
   },
   "bin": {
     "create-node-ts-app": "./bin/index.js"
@@ -20,6 +21,7 @@
   "dependencies": {
     "command-exists": "^1.2.9",
     "cross-spawn": "^7.0.3",
-    "inquirer": "^7.3.2"
+    "inquirer": "^7.3.3",
+    "yargs": "^16.1.0"
   }
 }

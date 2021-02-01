@@ -1,6 +1,6 @@
 {
   "name": "create-node-ts-app",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "A cli to quickly set up a node typescript project",
   "homepage": "https://github.com/IamTossan/create-node-app#readme",
   "main": "bin/index.js",

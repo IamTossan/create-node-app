@@ -38,13 +38,27 @@ You will also need `node >= 10`.
 
 Git is optionnal but strongly recommended.
 
-### development
+### Development
 
 To generate a project locally:
 
 `$> npm run test`
 
 The generated project should be under the `tmp` folder.
+
+### Publishing
+
+Update project version:
+
+`$> npm version major|minor|patch -m <RELEASE_NAME>`
+
+Sign in:
+
+`$> npm login`
+
+Publish on npm:
+
+`$> npm publish`
 
 ### Roadmap
 

@@ -1,24 +1,24 @@
 const basePackages = [
-  'typescript@4.6.3',
-  'ts-node-dev@1.1.8',
-  '@types/node@14.14.22',
+  'typescript@4.8.4',
+  'ts-node-dev@2.0.0',
+  '@types/node@16.11.65',
 ];
 
 const lintPackages = [
-  'eslint@8.12.0',
-  'prettier@2.6.1',
-  '@typescript-eslint/eslint-plugin@5.16.0',
-  '@typescript-eslint/parser@5.16.0',
-  'eslint-config-airbnb-typescript@16.1.4',
+  'eslint@8.25.0',
+  'prettier@2.7.1',
+  '@typescript-eslint/eslint-plugin@5.40.0',
+  '@typescript-eslint/parser@5.40.0',
+  'eslint-config-airbnb-typescript@17.0.0',
   'eslint-config-prettier@8.5.0',
-  'eslint-plugin-import@2.25.4',
+  'eslint-plugin-import@2.26.0',
 ];
 
 const testPackages = [
-  'jest@27.5.1',
-  '@types/jest@27.4.1',
-  'ts-jest@27.1.4',
-  'eslint-plugin-jest@26.1.3',
+  'jest@29.1.2',
+  '@types/jest@29.1.2',
+  'ts-jest@29.0.3',
+  'eslint-plugin-jest@27.1.1',
 ];
 
 module.exports = {

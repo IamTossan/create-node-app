@@ -21,7 +21,7 @@
   "dependencies": {
     "command-exists": "^1.2.9",
     "cross-spawn": "^7.0.3",
-    "inquirer": "^7.3.3",
-    "yargs": "^16.2.0"
+    "inquirer": "^8.2.3",
+    "yargs": "^17.6.0"
   }
 }
